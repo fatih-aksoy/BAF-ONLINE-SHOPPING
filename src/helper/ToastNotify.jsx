@@ -37,4 +37,4 @@ export const toastSuccessNotify: msgFunc = (msg) => {
   });
 };
 
-// ! 1 - burda type tanimlamasi yapalim. bunu sonra App.tsx e import edelim. App.tsx e git.
+

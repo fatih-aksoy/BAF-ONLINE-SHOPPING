@@ -18,4 +18,3 @@ const Navbar = () => {
 
 export default Navbar;
 
-// ! 1 sayfa ilk acildiignda home sayfasina gitmesi icin to="/" yazdik. sonra Typescript Quick start dosya adresine gideriz. ve Define Root State and Dispatch Types yapariz. app/store.ts olusturuz.

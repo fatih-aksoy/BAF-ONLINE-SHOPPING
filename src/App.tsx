@@ -28,10 +28,3 @@ function App() {
 
 export default App;
 
-//! 1 - ILK ONCE App.tsx dosyasindan baslariz. BrowserRouter kurulur. src de pages klasöru acilir. Home, FavoritesPages. Sonra component klasoru acilir, sonra Navbar acilir ve oradan devam edilir. Simdi Navbari duzenleyelim.
-
-//! 2 - PRODUCTS SLICE DAN dan buraya gelince, burda Provider ile yapimi sarmallamaliyim. Store dan verilerimi almam icin her yerde nasil sarmallamaliyim. tabiki de  <Provider store={store}></Provider> yapisini kullanarak. importlarini da unutmayalim.  ARTIK HOME SAYFASINA GECEBILIRIZ. home sayfasi icin components/SearchComp acariz. 3. MADDEYE HEMEN GECME!!!
-
-//! 3 - <ToastContainer/> i buraya cagiririz.  import { ToastContainer } from "react-toastify"; import ederiz. sonra Home.tsx e git...
-
-// ! son olarak  <ToastContainer /> e transition={Zoom} verilebilir,

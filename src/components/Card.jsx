@@ -36,18 +36,3 @@ const Card: React.FC<ICard> = ({ item, text, handleFunc }) => {
 
 export default Card;
 
-// ! Home.jsx deki 6. madde den sonra buray geliriz. card imizda title, description, image, card in altinda ise fiyati ve Add to Favorites butonunu gosteren bir kisim olacak. burda 3 kisim acarsiz. ANA DIV ICERSINDE, bir div, bir img ve bir div. tekrar Home.jsx e donelim...
-
-// ! Home.jsx den geldik ten sonra burada card a css veriririz. burada https://tailwindcss.com/ den faydalaniriz. Burda responsive yapiyi ayarlayacagiz. adresde break point kismina gideriz. css i ayarladiktan sonra buraya prop gondermemiz gerektgini anladik. Home.jsx e gidelim...
-
-//! Simdi Home.jsx de prop gonderme isini halledelim. Burda React.FC kullanicaz. const Card: React.FC<ICard> = ({ item, text, handleFunc })
-
-// ! artik verileri basalim. enson button icince handleFunc yazalim. Home.jsx e geri donelim.
-
-// ! 1 - Home.jsx den Buraya handleFunc props u yazariz; const Card: React.FC<ICard> = ({ item, text, handleFunc })
-
-// ! Ayni card yapisini favorites sayfasinda da kullanacagiz. ama birinde button "add to favorites", digerinde "remove" oluyor.
-
-// ! burda description u kisaltmak icin css de line-clamp-1 kullaniilir. https://tailwindcss.com/docs/line-clamp
-
-// ! Bakalim verilerimiz favoritesPage.tsx e gelecek mi? Simdi favoritesPage.tsx e gidelim. Burdan FAvoritesPage.tsx e gidelim.

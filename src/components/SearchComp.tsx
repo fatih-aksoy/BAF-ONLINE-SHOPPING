@@ -49,16 +49,3 @@ const SearchComp: React.FC<ISearchComp> = ({ handleChange }) => {
 
 export default SearchComp;
 
-// ! 0 - Burda searchComp u hazirladik ama hemen 1. maddeye gitme, arada baska isler var :-)
-
-// ! 1 - Home sayfasinda SearchComp a props gonderme asamasinda, burada interface yazmak ile baslarim.
-
-// ! burada searchComp react functional component tir ve props un type i nerden gelecek? ISearchComp dan gelecek.  const SearchComp:React.FC<ISearchComp> = () => {}. sonra artik propslarin ismini yazabiliriz,
-
-// ! interface ISearchComp { handleChange:(e:React.ChangeEvent<HTMLInputElement)=>void} burda void bir islem alir, yani return u yok. Naptik? burada da fonk tipini belirttik. inputta sifirlama yapmaya gerek yok. o yuzden value yazmiyoruz.
-
-// ! 2 - Home comp dan buraya uctuk ve artik props kisminda ve input kisminda handleChange={handleChange} yazabiliriz.
-
-// ! 3 - farketti iseniz React.ChangeEvent<HTMLInputElement> cok yerde kullnadik. TodoApp da oldugu gibi biz bunu global bir alana alabilir miyiz. src/models/models.ts acariz.
-
-// ! 4 - burayi global ulasim icin yorum alir ve EventFunc olarak degistiririz. import { EventFunc } from "../models/models";  import etmeyi unutma. sonra Home comp a gidelim
