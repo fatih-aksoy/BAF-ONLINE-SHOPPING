@@ -3,7 +3,7 @@
 ## Description
 
 Project aims to create a BAF Store App. LINK 
-https://baf-online-shopping.netlify.app/
+- https://baf-online-shopping.netlify.app/
 
 ## Problem Statement
 
