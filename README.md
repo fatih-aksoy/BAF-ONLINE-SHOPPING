@@ -2,7 +2,8 @@
 
 ## Description
 
-Project aims to create a BAF Store App.
+Project aims to create a BAF Store App. LINK 
+https://baf-online-shopping.netlify.app/
 
 ## Problem Statement
 
